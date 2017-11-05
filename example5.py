@@ -10,9 +10,6 @@ parser = PDBParser()
 
 st = parser.get_structure('estructura', '1ubq.pdb')
 
-selec=[]
-aa=["ARG"]
-
 #Selection of Residue 10 of Chain A
 res10=st[0]["A"][10]
 #Selection of Residue 20 of Chain A
