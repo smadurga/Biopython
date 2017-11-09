@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 #
-# Simple program to print distances between residues
+# Simple program to calculate ResidueDepth
 
 from Bio.PDB.PDBParser import PDBParser
 import Bio.PDB.ResidueDepth as ResidueDepth
