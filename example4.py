@@ -20,6 +20,6 @@ for res in st.get_residues():
 
 print("Coordinates:")
 for res in selec:
-    for atom in res.get_atoms():
+    for atom in res.get_atoms():   # Replace get_atoms with get_atom if you get an Error!
         print(res.get_resname(),res.id,
         atom.get_name(),atom.get_coord())

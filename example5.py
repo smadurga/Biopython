@@ -19,7 +19,7 @@ print("Residue 10 is",res10.get_resname())
 print("Residue 20 is",res20.get_resname())
 
 print("\nAtom1 Atom2 dist1 dist2\n-------------------------")
-for at10 in res10.get_atoms():
+for at10 in res10.get_atoms():  # Replace get_atoms with get_atom if you get an ERROR!
     for at20 in res20.get_atoms():
         dist=at20-at10     # Direct procedure with (-) to compute distances
         vector=at20.coord-at10.coord  # Or using numpy coordinates
